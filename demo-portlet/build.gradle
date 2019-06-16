@@ -1,0 +1,17 @@
+dependencies {
+	compileOnly group: "com.liferay.portal", name: "com.liferay.portal.kernel"
+	compileOnly group: "com.liferay.portal", name: "com.liferay.util.taglib"
+	compileOnly group: "javax.portlet", name: "portlet-api"
+	compileOnly group: "javax.servlet", name: "javax.servlet-api"
+	compileOnly group: "jstl", name: "jstl"
+	compileOnly group: "org.osgi", name: "osgi.cmpn"
+	compile 'biz.aQute.bnd:biz.aQute.bndlib:3.1.0'
+    compile 'com.liferay:com.liferay.portal.configuration.metatype:2.0.0'
+    compile group: 'commons-lang', name: 'commons-lang', version: '2.6'
+compile (group: "org.apache.poi", name: "poi", version: "3.13"){ transitive = false}
+compile (group: "org.apache.poi", name: "poi-ooxml", version: "3.13"){ transitive = false}
+compile (group: 'org.apache.poi', name: 'poi-ooxml-schemas', version: '3.13'){ transitive = false}
+compile (group: 'org.apache.xmlbeans', name: 'xmlbeans', version: '2.6.0'){ transitive = false}
+
+}
+

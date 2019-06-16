@@ -3,7 +3,7 @@ Modules presentation :
 
 1- demo-portlet : module Portlet MVC, export excel file with too ways : 
   * Synchronous way: direct call of ressource URL, the file will be send by the server after treatement finish.
-  * Asynchronous way: ajax call of the server, asynchrone tread via message bus Liferay will process the file. The user will be notified when the treatement is finish and the file can be downloaded. 
+  * Asynchronous way: ajax call of the server, asynchrone thread via message bus Liferay will process the file. The user will be notified when the treatement is finish.The file can be downloaded after. 
 
 2- my-message-bus-destination: module to declare destination of message bus Liferay 
 

@@ -6,5 +6,7 @@ Modules presentation :
   * Asynchronous way: ajax call of the server, asynchrone tread via message bus Liferay will process the file. The user will be notified when the treatement is finish and the file can be downloaded. 
 
 2- my-message-bus-destination: module to declare destination of message bus Liferay 
+
 3- my-message-bus-listener: listener to trigg the event of send message to the destination, in this module we will generate the file in document library and all the informations will be send to notification in order to be display to user.
+
 4-user-custom-notification: module to configure the custum message of the notification

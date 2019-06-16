@@ -5,6 +5,6 @@ package com.pulsarray.meetup.demo.portlet.constants;
  */
 public class DemoPortletKeys {
 
-	public static final String Demo = "demo-portlet";
+	public static final String Demo = "demo";
 
 }

@@ -1,5 +1,5 @@
 # Meetup Liferay Event :
-Module presentation : 
+Modules presentation : 
 
 1- demo-portlet : module Portlet MVC, export excel file with too ways : 
   * Synchronous way: direct call of ressource URL, the file will be send by the server after treatement finish.
